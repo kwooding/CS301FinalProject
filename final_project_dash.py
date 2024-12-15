@@ -349,4 +349,4 @@ def predict_values(n_clicks, feature_input, selected_features, data, target_colu
     return ""
 
 if __name__ == "__main__":
-    app.run_server(debug=False, use_reloader=False)
+    app.run_server(debug=False)
